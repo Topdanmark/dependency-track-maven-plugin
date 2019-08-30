@@ -1,0 +1,36 @@
+= Use maven goal getUuid
+Jon Brohauge <jnz@topdanmark.dk>
+v1.0, 2019-08-27
+
+The maven goal: *getUuid* allows for retrieving the project Id from Dependency Track.
+
+== Usage
+
+=== Get UUID
+
+Insert the following plugin information to create a new project in Dependency Track
+[source,xml]
+....
+<plugin>
+    <groupId>dk.topdanmark.maven.plugin</groupId>
+    <artifactId>dependency-track-maven-plugin</artifactId>
+    <version>2.0.3</version>
+    <configuration>
+        <dTrackHostUrl>https://dtrack.domain.org</dTrackHostUrl>
+        <apiKey>1234567890</apiKey>
+        <debugStatus>true</debugStatus>
+    </configuration>
+    <executions>
+        <execution>
+            <goals>
+                <goal>getUuid</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
+....
+
+=== Command line usage
+
+It is possible to use the plugin directly on the command line:
+`mvn dk.topdanmark.maven.plugin:2.0.3:dependency-track-maven-plugin:getUuid -DdTrackHostUrl=https://dtrack.domain.org -DapiKey=1234567890`

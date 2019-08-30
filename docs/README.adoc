@@ -1,0 +1,29 @@
+= Description of usage with maven
+Jon Brohauge <jnz@topdanmark.dk>
+v1.0, 2019-08-27
+
+This plugin can be used in a set of different ways to communicate with an installation of Dependency Track.
+
+It is possible to::
+  . link:usage/maven-uploadbom.adoc[upload a Bill Of Materials for analysis]
+  . link:usage/maven-createproject.adoc[create a new project]
+  . link:usage/maven-getuuid.adoc[get the uuid of a project]
+  . link:usage/maven-removeprojects.adoc[remove older versions of a project]
+
+== Properties
+
+There is a set of common properties for all goals, some of them are optional.
+
+dTrackHostUrl:: This property defines the URI of the Dependency Track server.
+apiKey:: This property defines the API Key needed for access to operations on the Dependency Track server.
+artifactId:: This property defines the artifact that needs to be taken action on.
++
+It defaults to the project's own artifactId
++
+version:: This property defines the version that needs to be taken action on.
++
+It defaults to the project's own version
++
+debugStatus:: This property determines whether there should be some verbose output information logged.
++
+It defaults to `false`

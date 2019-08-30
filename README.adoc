@@ -1,0 +1,13 @@
+= Dependency Track maven plugin
+
+a Maven plugin designed to communicate with a Dependency Track instance
+
+== Usage
+
+There are different ways to use this plugin.
+
+. Use of this plugin in Maven
+.. Explanation of usage can be found link:docs/README.adoc[here]
+. Use of this plugin in Jenkins.
+.. Explanation of usage can be found link:docs/usage/jenkins.adoc[here]
+.. Remember that there is a jenkins plugin that works with newer versions of Jenkins. To see if your version of Jenkins is supported, look https://wiki.jenkins.io/display/JENKINS/OWASP+Dependency-Track+Plugin[here].
