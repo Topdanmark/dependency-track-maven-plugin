@@ -1,5 +1,5 @@
 ---
-name: "🐛 Chore"
+name: "👻 Chore"
 labels: chore
 about: Create a chore to notify us of a need for maintenance
 ---
