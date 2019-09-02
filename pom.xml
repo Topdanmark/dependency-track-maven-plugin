@@ -5,14 +5,41 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>dk.topdanmark.maven.plugin</groupId>
     <artifactId>dependency-track-maven-plugin</artifactId>
-    <version>2.0.3-SNAPSHOT</version>
+    <version>2.0.3</version>
     <packaging>maven-plugin</packaging>
+
     <name>Dependency Track Maven Plugin</name>
+    <description>a Maven plugin designed to communicate with a Dependency Track instance.</description>
+    <url>https://github.com/topdanmark/dependency-track-maven-plugin</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Jon Brohauge</name>
+            <email>jnz@topdanmark.dk</email>
+            <organization>Topdanmark Forsikring A/S</organization>
+            <organizationUrl>https://www.topdanmark.dk</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/topdanmark/dependency-track-maven-plugin</connection>
+        <developerConnection>scm:git:ssh://github.com:topdanmark/dependency-track-maven-plugin.git</developerConnection>
+        <url>https://github.com/topdanmark/dependency-track-maven-plugin</url>
+    </scm>
+
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
     <build>
         <plugins>
             <plugin>
@@ -22,6 +49,7 @@
             </plugin>
         </plugins>
     </build>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.maven</groupId>
