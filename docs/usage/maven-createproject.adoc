@@ -1,14 +1,14 @@
-= Use maven goal createProject
+= Use Maven goal createProject
 Jon Brohauge <jnz@topdanmark.dk>
 v1.0, 2019-08-27
 
-The maven goal: *createProject* allows creating a new project in Dependency Track.
+The Maven goal: *createProject* allows creating a new project in Dependency-Track.
 
 == Usage
 
 === Create a new Project
 
-Insert the following plugin information to create a new project in Dependency Track
+Insert the following plugin information to create a new project in Dependency-Track
 [source,xml]
 ....
 <plugin>
