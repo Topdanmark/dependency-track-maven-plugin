@@ -1,6 +1,6 @@
-= Dependency Track maven plugin
+= Dependency-Track Maven plugin
 
-a Maven plugin designed to communicate with a Dependency Track instance.
+A Maven plugin designed to communicate with a link:https://dependencytrack.org/[Dependency-Track] instance.
 
 This plugin was originally developed for company use only. It is now released as open source, and can be freely used AS IS.
 
