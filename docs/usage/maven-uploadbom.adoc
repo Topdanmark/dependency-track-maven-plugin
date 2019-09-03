@@ -1,10 +1,10 @@
-= Use maven goal uploadBom
+= Use Maven goal uploadBom
 Jon Brohauge <jnz@topdanmark.dk>
 v1.0, 2019-08-27
 
-The maven goal: *uploadBom* allows for upload of a generated BOM (Bill Of Materials) file to be analysed by Dependency Track.
+The Maven goal: *uploadBom* allows for upload of a generated BOM (Bill Of Materials) file to be analysed by Dependency-Track.
 
-Prior to uploading a BOM (Bill Of Materials) to the Dependency Track server for analysis, it needs to be generated.
+Prior to uploading a BOM (Bill Of Materials) to the Dependency-Track server for analysis, it needs to be generated.
 
 == Usage
 
