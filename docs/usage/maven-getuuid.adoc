@@ -1,14 +1,14 @@
-= Use maven goal getUuid
+= Use Maven goal getUuid
 Jon Brohauge <jnz@topdanmark.dk>
 v1.0, 2019-08-27
 
-The maven goal: *getUuid* allows for retrieving the project Id from Dependency Track.
+The Maven goal: *getUuid* allows for retrieving the project ID from Dependency-Track.
 
 == Usage
 
 === Get UUID
 
-Insert the following plugin information to create a new project in Dependency Track
+Insert the following plugin information to create a new project in Dependency-Track
 [source,xml]
 ....
 <plugin>
