@@ -4,10 +4,10 @@ v1.0, 2019-08-27
 :imagesdir: ../images
 
 Prior to Jenkins 1.625.3 there is no support of the https://plugins.jenkins.io/dependency-track[OWASP Dependency-Track] Jenkins Plugin.
-To be able to still utilize the power of Dependency Track, this Maven plugin can be implemented as a Post-Build Step in a Maven Job.
+To be able to still utilize the power of Dependency-Track, this Maven plugin can be implemented as a Post-Build Step in a Maven Job.
 
 == Usage
-Prior to uploading a BOM (Bill Of Materials) to the Dependency Track server for analysis, it needs to be generated.
+Prior to uploading a BOM (Bill Of Materials) to the Dependency-Track server for analysis, it needs to be generated.
 
 === Set Post Steps
 . Select the bullet `Run only of build succeeds`, to reduce the amount of irrelevant post build actions.
